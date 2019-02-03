@@ -1,0 +1,15 @@
+# sudo apt-get update -qq && sudo apt-get -y install autoconf automake build-essential cmake git-core libass-dev libfreetype6-dev libsdl2-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo wget zlib1g-dev
+
+# install nasm
+
+# sudo apt-get install yasm
+
+# sudo apt-get install libx264-dev
+
+# sudo apt-get install libx265-dev libnuma-dev
+
+# sudo apt-get install libfdk-aac-dev
+
+# sudo apt-get install libmp3lame-dev
+
+# PKG_CONFIG_PATH="/home/sunny/others/system/packages/ffmpeg/deps/build/lib/pkgconfig" ./configure --prefix="/home/sunny/others/system/packages/ffmpeg/deps/build" --bindir="/home/sunny/others/system/packages/ffmpeg/deps/bin" --enable-gpl --enable-libfdk-aac --enable-libass --enable-libfreetype --enable-libmp3lame --enable-libx264 --enable-nonfree --enable-libx265 --enable-shared --disable-static
